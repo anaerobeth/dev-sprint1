@@ -1,3 +1,6 @@
 *** Cut and paste the for loop here ***
-
+{% for message in messages %}
+{{message}}
+                    {% endfor %}
 *** What is the for loop doing? ***
+It will loop through all flashed messages and display the results if found
