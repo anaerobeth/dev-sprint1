@@ -14,6 +14,7 @@ class View(flask.views.MethodView):
 
     def post(self):
         s = str(flask.request.form['expression'])
+        #reverse the string!
         r = ""
         for i in s:
             r = i + r
